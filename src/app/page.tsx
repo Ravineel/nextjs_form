@@ -45,7 +45,7 @@ export default function ProfileForm() {
   return (
     <div className="flex justify-center m-1">
       <div className="border-4 rounded border-solid hover:border-dotted w-min-[300px] w-96">
-        <Form clasName="" {...form}>
+        <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <FormField
               control={form.control}
